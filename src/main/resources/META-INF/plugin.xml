@@ -16,4 +16,16 @@
         <listener class="com.github.javaru.balloondemo.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </projectListeners>
+
+    <actions>
+        <group id="Example.BalloonNotificationsGroup"
+               text="EXAMPLE Balloons"
+               popup="true"
+               icon="AllIcons.General.Balloon"
+        >
+            <add-to-group group-id="ToolsMenu" anchor="first" />
+            <action class="com.github.javaru.balloondemo.actions.ShowLargeBalloonAction" text="Show Large Balloon" />
+            <action class="com.github.javaru.balloondemo.actions.ShowSmallBalloonAction" text="Show Small Balloon" />
+        </group>
+    </actions>
 </idea-plugin>
