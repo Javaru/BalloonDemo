@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.javaru.balloondemo.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.javaru.balloondemo.MyBundle
 
 class MyApplicationService {
 

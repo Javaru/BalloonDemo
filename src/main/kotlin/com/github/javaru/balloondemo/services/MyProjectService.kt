@@ -1,7 +1,7 @@
-package org.jetbrains.plugins.template.services
+package com.github.javaru.balloondemo.services
 
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
+import com.github.javaru.balloondemo.MyBundle
 
 class MyProjectService(project: Project) {
 
